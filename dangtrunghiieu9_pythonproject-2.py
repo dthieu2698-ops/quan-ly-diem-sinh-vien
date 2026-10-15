@@ -89,7 +89,7 @@ plt.ylim(0, 10)
 plt.show()
 
 #6.Thông tin người tạo
-from IPython.display import Markdown
+
 
 Markdown(
     "<small>Họ tên: [Đặng Trung Hiếu] | "
