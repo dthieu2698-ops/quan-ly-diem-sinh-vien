@@ -22,7 +22,7 @@ data = {
 }
 df = pd.DataFrame(data)
 
-st.datafarme(df)
+st.dataframe(df)
 
 #2.Tính điểm tổng kết
 df["Tong_ket"] = (
