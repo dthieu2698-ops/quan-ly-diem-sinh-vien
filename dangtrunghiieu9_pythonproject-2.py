@@ -87,6 +87,7 @@ plt.ylabel("Điểm tổng kết")
 plt.ylim(0, 10)
 plt.xticks(rotation=45' ha='right')
 plt.tight_layout()
+plt.savefight("bieu_do_diem.pmg"' dpi=300)
 
 plt.show()
 
