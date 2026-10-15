@@ -65,10 +65,10 @@ print(f"Trung bình: {trung_binh}")
 print(f"Cao nhất: {cao_nhat}")
 
 print("Sinh viên cao nhất:")
-display(sinh_vien_cao_nhat.to_frame().T)
+st.dataframe(sinh_vien_cao_nhat.to_frame().T)
 
 print("Sinh viên thấp nhất:")
-display(sinh_vien_thap_nhat.to_frame().T)
+st.dataframe(sinh_vien_thap_nhat.to_frame().T)
 
 print(f"Số sinh viên đạt: {so_sinh_vien_dat}")
 
