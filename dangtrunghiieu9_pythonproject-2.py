@@ -77,7 +77,7 @@ print(df)
 #5. Trực quan hoá
 import matplotlib.pyplot as plt
 
-plt.figure(figsize=(10, 5))
+fig = plt.figure(figsize=(10, 5))
 
 plt.bar(df["Ho_ten"], df["Tong_ket"])
 
@@ -89,7 +89,7 @@ plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 plt.savefig("bieu_do_diem.png", dpi=300)
 
-plt.show()
+st.pyplot(fig)
 
 #6.Thông tin người tạo
 
