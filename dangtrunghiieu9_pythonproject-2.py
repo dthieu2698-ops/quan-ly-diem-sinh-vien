@@ -22,7 +22,7 @@ data = {
 }
 df = pd.DataFrame(data)
 
-st.dataframe(df)
+st.datafarme(df)
 
 #2.Tính điểm tổng kết
 df["Tong_ket"] = (
@@ -30,7 +30,7 @@ df["Tong_ket"] = (
     + 0.3 * df["Giua_ky"]
     + 0.5 * df["Cuoi_ky"]
 )
-st.dataframe(df)
+display(df)
 
 #3. Xếp loại
 def xep_loai(diem):
@@ -43,7 +43,7 @@ def xep_loai(diem):
     else:
         return "Yếu"
 df["Xep_loai"] = df["Tong_ket"].apply(xep_loai)
-st.dataframe(df)
+display(df)
 
 #4. Thống kê
 
