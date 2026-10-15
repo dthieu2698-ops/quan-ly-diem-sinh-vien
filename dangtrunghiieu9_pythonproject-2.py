@@ -91,7 +91,7 @@ plt.show()
 #6.Thông tin người tạo
 
 
-Markdown(
+st.markdown(
     "<small>Họ tên: [Đặng Trung Hiếu] | "
     "MSSV: [064208015402]</small>"
 )
